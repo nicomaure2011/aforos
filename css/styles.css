@@ -1,0 +1,190 @@
+/*ESTILOS DE VISTA_AFOROS.PHP*/
+html,body { 
+	height: 100%; 
+
+}
+
+.global-container{
+	height:100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f5f5;
+}
+
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.card-title{ font-weight:300; }
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;
+}
+
+
+.login-form{ 
+	width:330px;
+	margin:20px;
+}
+
+.sign-up{
+	text-align:center;
+	padding:20px 0 0;
+}
+
+.alert{
+	margin-bottom:-30px;
+	font-size: 13px;
+	margin-top:20px;
+}
+.sesion_caducada{
+	height:100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f5f5;
+}
+
+
+
+.btn-sesion_caducada{
+	text-decoration: none;
+	padding: 10px;
+	
+        padding: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+        background-color: #1883ba;
+        border-radius: 6px;
+}
+
+
+
+#navbar{
+    background-color: #337ab7;
+    
+}
+#calcula_aforo{
+    width: 150px;
+    font-size: 18px;
+}
+#navbar2{
+    background-color: #337ab7;
+    
+}
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+   }
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+        
+}
+
+table th, td{
+	padding: 20px;
+         border:1px solid white;
+         text-align: center;
+}
+
+thead{
+	background-color: #337ab7;
+	
+	color: white;
+       
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	/*background-color: #337ab7;
+	color: white;*/
+}
+.btn_imprimir{
+    background-color: #1AA506;
+    border:none;
+    color:white;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
+.btn_imprimir:hover{/*boton imprimir de la vista "imprimirPdf"*/
+    background-color: #06A599;
+}
+
+#txt_total{
+    width: 100px;
+    border:none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #337ab7;
+    color:white;
+}
+#lbl_total{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#total{
+    
+   background-color: #337ab7;
+    width: 51%;
+    margin-left: 285px;
+}
+#span_confirmar_item{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+.header_pdf{
+    width:100%;
+    overflow: auto; /* will contain if #first is longer than #second */
+    
+}
+
+.logo{
+    float:left; /* add this */
+    width: 70%;
+   
+}
+.padron{
+   float:left;
+    width: 30%;
+   font-weight: bold;
+   margin-top: 20px;
+}
+.content{
+    float:none;
+}
+#imprimir{/*boton imprimir de la vista "vista_aforos"*/
+    background-color: #1AA506;
+    border:none;
+    color:white;
+    border-radius: 4px;
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+#imprimir:hover{/*boton imprimir de la vista "imprimirPdf"*/
+    background-color: #06A599;
+}
+
+
+
+

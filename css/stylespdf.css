@@ -1,0 +1,29 @@
+.header_pdf{
+    width:100%;
+    overflow: auto; /* will contain if #first is longer than #second */
+    
+}
+
+.logo{
+    float:left; /* add this */
+    width: 70%;
+   
+}
+.padron{
+   float:left;
+    width: 30%;
+   font-weight: bold;
+   margin-top: 20px;
+}
+table{
+    
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+table th, td{
+	
+         border:1px solid;
+         text-align: center;
+}
+

@@ -1,0 +1,37 @@
+/*
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+*/
+
+:root {
+    --primary: #111B54;
+    --light: #ffffff;
+    --grey: #efefef;
+}
+.bg-primary2{
+    background-color: var(--primary) !important;
+}
+#sidebar-container{
+ min-height: 100vh;   
+}
+#sidebar-container .logo{
+ padding: .875rem 1.25rem;  
+}
+#sidebar-container .menu{
+    width: 18rem;
+}
+body{
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: var(--primary);
+}
+.container{
+    background-color: #F4F6F6;
+}
+.menu a{
+    text-decoration: none;
+}
+

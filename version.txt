@@ -1,0 +1,12 @@
+Esta version tiene:
+- valida la contraseña
+- si es admin muestra admin.php
+- si es usuario normal muestra la vista vista_aforos
+- QUITE MOMENTANEAMENTE EL TEMA DE AGREGAR ITEMS
+- carga todos los combos
+- el formulario ya esta listo
+- tiene script para ir probando los calculos
+- tiene validacion de todos los campos
+
+FALTA:
+-estoy diseñando la vista admin, voy a poner datatables para los crud
